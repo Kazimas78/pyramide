@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.pyramid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.level {
+    margin: 5px;
+}
+
+.question {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.input-answer {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.btn-submit {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.score {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}

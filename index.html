@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu Pyramide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="score">Score: <span id="score">0</span></div>
+
+    <div class="pyramid">
+        <div class="level" id="level-1">
+            <div class="question">Indice : Animal qui miaule</div>
+            <input type="text" class="input-answer" id="answer-1" />
+            <button class="btn-submit" onclick="checkAnswer(1)">Valider</button>
+        </div>
+        <div class="level" id="level-2">
+            <div class="question">Indice : Élément indispensable pour respirer</div>
+            <input type="text" class="input-answer" id="answer-2" />
+            <button class="btn-submit" onclick="checkAnswer(2)">Valider</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
